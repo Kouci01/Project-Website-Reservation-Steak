@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Reservation.css">
+
+</head>
+
+<body>
+    <img src="img/projectasset/gambarsteak.jfif" alt="" id="steak">
+    <div id="content-form">
+        <div class="header1">
+            <a href="/"><img src="img/projectasset/Logo.png" alt="Logo" id="logo"></a>
+            <div class="top-menu">
+                <a href="/about">About Us</a>
+                <a href="/reserve">Reservation</a>
+            </div>
+        </div>
+        <div class="header2">
+            <a href="/menu">Menu</a>
+            <a href="/promo">Promo</a>
+        </div>
+        <h1 id="title">Reserve Table</h1>
+        
+        <form action="" class="form" onsubmit="return Validation()">
+            
+            <div class="Name_info">
+                <label for="name">Name: </label>
+                <br> 
+                <input type="text" name="name" id="name" placeholder="Please input your name..">
+                <div class="error" id="error1"></div>
+            </div>
+            <div class="Phone_info">
+                <label for="phonenumber">Phonenumber: </label> 
+                <br>
+                <input type="text" name="phonenumber" id="phonenumber" placeholder="+(62)..">
+                <div class="error" id="error2"></div>
+            </div>
+            <div class="Email_info">
+                <label for="email">Email: </label> <br>
+                <input type="email" name="email" id="email" placeholder="name@gmail/yahoo.com">
+                <div class="error" id="error3"></div>
+            </div>
+            <div class="NumberPerson_info">
+                <label for="numberperson">Number of person: </label> 
+                <i class="fa fa-male"></i>
+                <select name="numberperson" id="numberperson">
+                    <option value="0 Person">--Default--</option>
+                    <option value="2 Person">2 Person</option>
+                    <option value="4 Person">4 Person</option>
+                    <option value="8 Person">8 Person</option>
+                    <option value="12+ Person">12+ Person</option>
+                </select>
+                <div class="error" id="error4"></div>
+            </div>
+            <div class="DateTime_info">
+                    <label for="Date">Date: </label> 
+                    <input type="date" name="Date" id="Date" placeholder="">
+                    <label for="Time">Time: </label> <input type="time" name="Time" id="Time">
+                    <div class="error" id="error5"></div>
+            </div>
+            
+            <div class="Coupon_info">
+                <label for="coupon">Coupon Code: </label> 
+                <br>
+                <textarea name="coupon" id="coupon" cols="80" rows="1"></textarea>
+                <div class="error" id="error6"></div>
+            </div>
+            <div class="button">
+            <button type="submit" id="submitBtn">Submit</button>
+            </div>
+            
+        </form>
+        <footer class="footer">
+            
+            <div class="closing">
+                <h1>Fresh Food Guaranteed</h1>
+                <p>One of the simplest ways to improve your health is to consume fresh</p>
+                <p>meals, Eating Fresh meals gives everyone an opportunity to build</p>
+                <p>better health, one plate at a time.</p>
+            </div>
+    
+            <div class="contact">
+                <h2>Reach Us:</h2>
+                <div class="logo">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+    
+            <div class="copyright">
+                <span>&#169; 2021.Ababa Steak.All Rights Reserved.</span>
+            </div>
+        </footer>
+    </div>
+    
+    <div id="ConfirmationBox">
+        <h1>Confirmation Box</h1>
+        <hr>
+        <span id="exit">&times;</span>
+        <div id="namedetail"></div>
+        <div id="phonenumberdetail"></div>
+        <div id="emaildetail"></div>
+        <div id="numberofpersondetail"></div>
+        <div id="datedetail"></div>
+        <div id="timedetail"></div>
+        <button id="confirm">Confirm</button>
+    </div>
+</body>
+    <script src="js/Reservation.js"></script>
+    <script src="js/jquery.js"></script>
+</html>

@@ -1,0 +1,520 @@
+
+.slider{
+    padding: 0;
+    margin-top: 44px;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+#slider1{
+    display: block;
+}
+
+.slidercontent{
+    position: relative;
+    width: 100%;
+    height: 206px;
+    background-color: #061428;
+    display: none;
+}
+
+#sliderimg{
+    width: 367px;
+    height: 206px;
+}
+
+.beeftype{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.beef{
+    position: absolute;
+    left: 640px;
+    top: 60px;
+    color: #ffff;
+    font-size: 25;
+    font-family: 'Century Gothic';
+    font-style: italic;
+}
+
+.beefchoice{
+    position: absolute;
+    left: 660px;
+    top: 60px;
+    color: #ffff;
+    font-size: 25;
+    font-family: 'Century Gothic';
+    font-style: italic;
+}
+
+.beeflocal{
+    position: absolute;
+    left: 450px;
+    top: 60px;
+    color: #ffff;
+    font-size: 25;
+    font-family: 'Century Gothic';
+    font-style: italic;
+}
+
+.gram{
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Garamond';
+}
+
+.beefcut1{
+    position: absolute;
+    left: 400px;
+    bottom: 20px;
+    color: #ffff;
+    font-size: 15;
+    font-family: 'Gill Sans MT';
+}
+
+.beefcut1 > p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Gill Sans MT';
+}
+
+.beefcut1price{
+    position: absolute;
+    left: 475px;
+    bottom: 15px;
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+}
+
+.line{
+    position: absolute;
+    left: 580px;
+    bottom: 15px;
+    color: #ffff;
+    font-size: 50px;
+}
+
+.beefcut2{
+    position: absolute;
+    left: 600px;
+    bottom: 20px;
+    color: #ffff;
+    font-size: 15;
+    font-family: 'Gill Sans MT';
+}
+
+.beefcut2 > p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Gill Sans MT';
+}
+
+.beefcut2price{
+    position: absolute;
+    left: 720px;
+    bottom: 15px;
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+}
+
+.sauceselect{
+    position: absolute;
+    left: 930px;
+    top: 30px;
+    color: #ffff;
+    font-size: 15;
+    font-family: 'Lucida Fax';
+}
+
+.garlicsauce{
+    position: absolute;
+    top: 55px;
+    left: 930px;
+    font-size: 12;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.greencircle{
+    height: 10px;
+    width: 10px;
+    background-color: #109d01;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mushroomsauce{
+    position: absolute;
+    top: 55px;
+    left: 1050px;
+    font-size: 15;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.lightbrowncircle{
+    height: 10px;
+    width: 10px;
+    background-color: #c7b299;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bbqsauce{
+    position: absolute;
+    top: 55px;
+    left: 1190px;
+    font-size: 15;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.browncircle{
+    height: 10px;
+    width: 10px;
+    background-color: #8c6239;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.grillstyle{
+    position: absolute;
+    left: 930px;
+    bottom: 55px;
+    color: #ffff;
+    font-size: 15;
+    font-family: 'Lucida Fax';
+}
+
+.rare{
+    position: absolute;
+    bottom: 20px;
+    left: 930px;
+    font-size: 15;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.redcircle{
+    height: 10px;
+    width: 10px;
+    background-color: #cf0a2c;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mediumrare{
+    position: absolute;
+    bottom: 20px;
+    left: 1050px;
+    font-size: 15;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.darkredcircle{
+    height: 10px;
+    width: 10px;
+    background-color: #c70039;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.welldone{
+    position: absolute;
+    bottom: 20px;
+    left: 1190px;
+    font-size: 15;
+    color: #ffff;
+    font-family: 'Gill Sans MT';
+}
+
+.darkerredcircle{
+    height: 10px;
+    width: 10px;
+    background-color: #8e3343;
+    border: 3.5px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 94px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.premiumchoice{
+    display: flex;
+    margin-top: 46px;
+    margin-right: 187px;
+    margin-left: 187px;
+}
+
+.uspremium{
+    position: relative;
+    height: 166px;
+    width: 388px;
+    background-color: #061428;
+}
+
+#usimg{
+    height: 166px;
+    width: 222px;
+}
+
+.us{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.premiumcollection{
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    font-style: italic;
+}
+
+.clickhere{
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Garamond';
+}
+
+.wagyupremium{
+    position: relative;
+    margin-left: 400px;
+    height: 166px;
+    width: 388px;
+    background-color: #061428;
+}
+
+#wagyuimg{
+    height: 166px;
+    width: 222px;
+}
+
+.wagyu{
+    position: absolute;
+    top: 10px;
+    left: 230px;
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+#premium1{
+    margin-left: -15px;
+}
+#click2{
+    margin-left: -15px;
+}
+.clickhere{
+    cursor: pointer;
+}
+.modalboxContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    background-color: rgba(0,0,0, 0.65);
+    display: none;
+}
+
+.modalboxContainer .contentbox{
+    margin-top: 20px;
+    
+}
+.modalboxContainer .contentbox p{
+    text-align: center;
+    font-size: 12px;
+}
+.modalboxContainer .contentbox span{
+    font-size: 18px;
+    margin-left: 90%;
+    cursor: pointer;
+}
+#contentbox1{
+    margin-top: 10px;
+}
+#contentbox1 p{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.headchef{
+    margin-top: 55px;
+    margin-left: 740px;
+}
+
+#chefhat{
+    width: 68px;
+    height: 60px;
+}
+
+.chefpick{
+    margin-left: 500px;
+}
+
+#delicious{
+    font-size: 50px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#fromthechef{
+    font-size: 50px;
+    font-family: "chaparral-pro", serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.chefpickline1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left{
+    margin-left: 250px;
+}
+
+#leftprice{
+    margin-left: 40px;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+#leftprice2{
+    margin-left: 80px;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+#leftdesc{
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+#leftdesc2{
+    margin-left: 60px;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+.right{
+    margin-left: 150px;
+}
+
+#rightprice{
+    margin-left: 50px;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+#rightdesc{
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+#rightdesc2{
+    margin-left: 60px;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+.chefpickline2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.visitus{
+    margin-left: 650px;
+    margin-bottom: 0;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+@media screen and ( max-width:800px  ) {
+    body{
+        background-color: aqua;
+    }
+}

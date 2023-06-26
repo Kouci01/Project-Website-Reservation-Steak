@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Menu.css">
+    
+</head>
+<body>
+    <div class="header1">
+        <a href="/"><img src="img/projectasset/Logo.png" alt="Logo" id="logo"></a>
+        <div class="top-menu">
+            <a href="/about">About Us</a>
+            <a href="/reserve">Reservation</a>
+        </div>
+    </div>
+    <div class="header2">
+        <a href="/menu">Menu</a>
+        <a href="/promo">Promo</a>
+    </div>
+
+    <div class="content">
+        <div class="category">
+            <h1>Category</h1>
+            <hr>
+            <div class="categ">
+                <button id="steak" onclick="showMenu(1)">Steak Cut</button>
+                <hr>
+                <button id="sauce" onclick="showMenu(2)">Sauce</button>
+                <hr>
+                <button id="beverage" onclick="showMenu(3)">Beverage</button>
+                <hr>
+            </div>
+        </div>
+        
+        <div class="menus">
+            <div class="menuslide" id="steakcut">
+                <div class="steak1">
+                    <img src="img/projectasset/Sirloin-US.png" alt="">
+                    <div class="steakdetail">
+                        <h2>Sirloin Steak</h2>
+                        <p>Sirloin Steak is a butter-tender piece of beef with a small rim of fat that serves as the flavour carrier. The steak comes from American beef and is cut from the bolar blade. </p>
+                        <span>200gram</span>
+                        <span>123K</span>
+                    </div>
+                </div>
+                <div class="steak2">
+                    <img src="img/projectasset/tenderloin.jpg" alt="">
+                    <div class="steakdetail">
+                        <h2>Tenderloin Steak</h2>
+                        <p>A steak cut from the beef tenderloin, which is the inside muscle of the short loin. It is among the most desirable, tender, and expensive cuts of beef. The tenderloin makes an excellent roast or it can be cut into steaks.</p>
+                        <span>200gram</span>
+                        <span>145K</span>
+                    </div>
+                </div>
+                <div class="steak3">
+                    <img src="img/projectasset/ribeye.jpg" alt="">
+                    <div class="steakdetail">
+                        <h2>Rib-eye Steak</h2>
+                        <p>The ribeye – also called a Delmonico, Spencer, beauty steak, sarket steak, or Scotch fillet – is known for its rich, buttery flavor and tender texture. In a variety of butcher's cuts, the ribeye delivers mouthwatering, juiciness, and flavor in every bite.</p>
+                        <span>200gram</span>
+                        <span>125K</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuslide" id="sauce">
+                    <div class="sauce1">
+                        <img src="img/projectasset/mushroomsauce.jpg" alt="">
+                        <div class="saucedetail">
+                            <h2>Mushroom Sauce</h2>
+                            <p>Mushroom sauce is a white or brown sauce prepared using mushrooms as its primary ingredient. It can be prepared in different styles using various ingredients, and is used to top a variety of foods.</p>
+                            <span>1 saucepot</span>
+                            <span>+25K</span>
+                        </div>
+                    </div>
+                    <div class="sauce2">
+                        <img src="img/projectasset/blackpeppersauce.jpg" alt="">
+                        <div class="saucedetail">
+                            <h2>BlackPepper Sauce</h2>
+                            <p>Black pepper sauce or black pepper sauce is one that is easy to make. Moreover, black pepper sauce has a slightly spicy taste, suitable for Indonesian tongues.</p>
+                            <span>1 saucepot</span>
+                            <span>+25K</span>
+                        </div>
+                    </div>
+                    <div class="sauce3">
+                        <img src="img/projectasset/garlicherbsauce.jpg" alt="">
+                        <div class="saucedetail">
+                            <h2>Garlic & Herb Sauce</h2>
+                            <p>Brand new steak sauce that we created to specially to accompany enjoying steak. Garlic and Herb Sauce made with fresh and top quality ingredient and have leave a greate taste in the mouth.</p>
+                            <span>1 saucepot</span>
+                            <span>+30K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menuslide" id="beverage">
+                    <div class="beverage1">
+                        <img src="img/projectasset/blackcurrent.jpg" alt="">
+                        <div class="beveragedetail">
+                            <h2>Blackcurrant</h2>
+                            <p>Blackcurrants drink made from fresh Blackcurrant contain sumptuously rich levels of health-promoting micronutrients, even compared with other "superfood" berries. They are an exceptionally rich source of vitamin C – containing three times more than oranges.</p>
+                            <span>1 glass</span>
+                            <span>27.5K</span>
+                        </div> 
+                    </div>
+                    <div class="beverage2">
+                        <img src="img/projectasset/lemontea.jpg" alt="">
+                        <div class="beveragedetail">
+                            <h2>Lemontea</h2>
+                            <p>Lemon Tea made from a refreshing tea where lemon juice is added in black tea. It soothes the throat, prevents cough and congestion, helps in weight loss and reduce your risk of heart disease, anemia, kidney stones, digestive issues, and cancer.</p>
+                            <span>1 glass</span>
+                            <span>27.5K</span>
+                        </div> 
+                    </div>
+                    <div class="beverage3">
+                        <img src="img/projectasset/oceanblue.jpg" alt="">
+                        <div class="beveragedetail">
+                            <h2>Ocean Blue</h2>
+                            <p>This beautiful blue vodka cocktail mixes up blue curacao, simple syrup, grapefruit juice, and orange slices and cherries, and is absolutely perfect as a Shark Week cocktail recipe. Also fresh and soda sizzling feeling refreshing your throat.</p>
+                            <span>1 glass</span>
+                            <span>35.5K</span>
+                        </div> 
+                    </div>
+                </div>
+        </div>
+
+            
+    </div>
+    <footer class="footer">
+        
+        <div class="closing">
+            <h1>Fresh Food Guaranteed</h1>
+            <p>One of the simplest ways to improve your health is to consume fresh</p>
+            <p>meals, Eating Fresh meals gives everyone an opportunity to build</p>
+            <p>better health, one plate at a time.</p>
+        </div>
+
+        <div class="contact">
+            <h2>Reach Us:</h2>
+            <div class="logo">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <span>&#169; 2021.Ababa Steak.All Rights Reserved.</span>
+        </div>
+    </footer>
+    <script src="js/Menu.js"></script>
+</body>
+</html>
