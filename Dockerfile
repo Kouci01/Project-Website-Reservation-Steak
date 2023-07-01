@@ -15,5 +15,5 @@ RUN npm ci --omit=dev
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
-CMD [ "npm", "prod" ]
+EXPOSE 5000
+CMD [ "node", "app.js" ]
