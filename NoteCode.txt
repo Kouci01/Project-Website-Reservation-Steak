@@ -1,0 +1,33 @@
+gcloud init
+
+gcloud auth login (Kalo Blm Login)
+
+gcloud auth list
+
+PROJECT_ID=eminent-tape-391503
+
+LOCATION=asia-southeast2
+
+gcloud artifacts repositories create repoasia \
+    --repository-format=docker \
+    --location=$LOCATION \
+    --description="Repo untuk project tugas" \
+
+gcloud artifacts repositories describe repoasia \
+    --location=$LOCATION
+
+git clone https://github.com/Kouci01/Project-Website-Reservation-Steak
+
+cd Project-Website-Reservation-Steak
+
+docker build . -t $PROJECT_ID/steak-reservation:0.1
+
+docker tag eminent-tape-391503/steak-reservation:0.1 $LOCATION-docker.pkg.dev/eminent-tape-391503/repoasia/steak-reservation:0.1
+
+gcloud auth configure-docker $LOCATION-docker.pkg.dev
+
+docker push $LOCATION-docker.pkg.dev/eminent-tape-391503/repoasia/steak-reservation:0.1
+
+gcloud run deploy steakreservation --image $LOCATION-docker.pkg.dev/eminent-tape-391503/repoasia/steak-reservation:0.1 --region $LOCATION
+
+docker rmi -f IMAGE_ID
